@@ -21,10 +21,10 @@ A Streamlit-based RAG (Retrieval-Augmented Generation) chatbot that allows uploa
 2. Run: `docker run -p 8501:8501 -e GOOGLE_API_KEY=your_key -e GOOGLE_MODEL=gemini-1.5-flash rag-chatbot`
 3. Access at `http://localhost:8501`
 
-## GitHub Container Registry
-The Docker image is automatically built and pushed to GHCR on pushes to `main`.
+## Docker Hub
+The Docker image is automatically built and pushed to Docker Hub on pushes to `main`.
 
-Pull the image: `docker pull ghcr.io/your-username/your-repo:latest`
+Pull the image: `docker pull mvsrikar/rag-chatbot:latest`
 
 Run as above.
 
